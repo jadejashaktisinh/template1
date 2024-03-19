@@ -1,0 +1,317 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("skyscrapers-from-low-angle-view.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    
+}
+.header{
+    height: 300px;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+   
+}
+.header p{
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.text-side1{
+    width: 50%;
+    background-color: rgba(97, 166, 180,0.7);
+    text-align: end;
+}
+.text-side1 p{
+    margin-right: 5%;
+}
+.text-side2 p{
+    margin-left: 5%;
+}
+.text-side2{
+    width: 50%;
+    background-color: rgba(19, 125, 151, 0.7);
+    text-align: start;
+}
+hr{
+    margin: 0px;
+    opacity: 0.7;
+    height: 15px;
+    background-color: white;
+}
+.list{
+    width: 40%;
+    margin-left: 40px;
+
+}
+.list ul li{
+    list-style-type: none;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+.line{
+    height: 50px;
+    width: 10px;
+    background-color: crimson;
+    margin-right: 30px;
+}
+.list-text{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 7px 12px;
+    opacity: 0.7;
+    font-size: 30px;
+}
+
+
+.blue-box{
+    height: 190px;
+    background-color: rgb(97, 166, 180);
+    opacity: 0.9;
+    align-items: center;
+    justify-content: center;
+}
+.blue-box span{
+    display: block;
+    color: white;
+    font-size: 50px;
+    margin: 10px 50px;
+}
+.h-text2{
+    font-weight: 900;
+}
+.footer{
+    background-color: black;
+    opacity: 0.7;
+    position: relative;
+    height: 82vh;
+    top: -17px;
+    
+}
+.list2{
+    
+    background-color: black;
+    opacity: 0.7;
+    position: relative;
+    margin-left: 40px;
+    top: 100px;
+    
+}
+.list2 li{
+    list-style-type: none;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    margin-top: 80px;
+
+}
+.lorem{
+    width: 30%;
+    color: white;
+    font-size: 20px;
+    margin: 20px 30px;
+}
+.aside-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color: crimson;
+    color: white;
+    float: right;
+    position: relative;
+    z-index: 4;
+    opacity: 0.7;
+    margin-right: 50px;
+    
+}
+.hey{
+    margin-top: 50px;
+    font-size: 50px;
+}
+.trend{
+    font-size: smaller;
+    margin-bottom: 270px;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+}
+.brand{
+    font-size: 30px;
+}
+.partner{
+    margin-bottom: 60px;
+    font-size: 10px;
+    margin-bottom: 170px;
+}
+.qr-img{
+    width: 80px;
+    height: 80px;
+}
+.website{
+    margin-bottom: 100px;
+}
+.address-con{
+    float: right;
+    background-color: rgb(97, 166, 180);
+    width: 30%;
+    position: relative;
+    top: -103px;
+    height: 150px;
+    
+}
+.address-content{
+ 
+    text-align: end;
+    margin-right: 15%;
+    margin-top: 8%;
+
+}
+.address-con p{
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+}
+.address-con p b{
+     font-weight: 900;
+     font-size: 20px;
+     
+}
+@media only screen and (max-width: 600px) {
+    .header{
+        height: 100px;
+    }
+    .header p{
+        font-size: 30px;
+        font-weight: 900;
+    }
+    
+    
+    .text-side1 p{
+        margin-right: 5%;
+    }
+    .text-side2 p{
+        margin-left: 5%;
+    }
+    
+    hr{
+        height: 5px;
+    }
+    
+    .list{
+        width: 60%;
+    
+    }
+    .list ul li{
+        margin-bottom: 10px;
+    }
+    .line{
+        height: 15px;
+        width: 10px;
+        margin-right: 10px;
+    }
+    .list-text{
+        height: 15px;
+        font-size: 10px;
+    }
+    .blue-box{
+        height: 60px;
+    }
+    .blue-box span{
+        font-size: 20px;
+        margin: 10px 20px;
+    }
+    
+    .h-text2{
+        font-weight: 900;
+        
+    }
+    .footer{
+        position: relative;
+        height:30vh;
+        top: -27px;
+    }
+    .list2{
+        position: relative;
+        top: 20px;
+
+    }
+    .list2 li{
+        font-size: 10px;
+        font-weight: 600;
+        margin-top: 30px;
+    
+    }
+    .lorem{
+        width: 40%;
+        font-size: 5px;
+        margin: 5px 10px;
+        margin-bottom: 10px;
+
+    }
+    .address-con{
+        width: 50%;
+        position: relative;
+        top: -23px;
+        height: 50px;
+        
+    }
+    .address-content{
+        margin-right: 7px;
+    
+    }
+    .address-con p{
+        font-size: 5px;
+        margin-top: 0px;
+    }
+    .address-con p b{
+         font-weight: 100;
+         font-size: 7px;
+         
+    }
+    .aside-main{
+        width: 20%;
+        margin-right: 15px;
+        
+    }
+    .hey{
+        margin-top: 10px;
+        font-size: 15px;
+        margin-top: 40px;
+    }
+    .trend{
+        font-size: 7px;
+        margin-bottom: 70px;
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+    }
+    .brand{
+        font-size: 10px;
+    }
+    .partner{
+        
+        font-size: 5px;
+        margin-bottom: 45px;
+    }
+    .qr-img{
+        width: 40px;
+        height: 40px;
+    }
+    .website{
+        font-size: 6px;
+        margin-bottom: 10px;
+    }
+}
